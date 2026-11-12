@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body { background: #f8f1e4; color: #2f261b; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+}
+
+@layer components {
+    .dd-serif { font-family: Georgia, 'Times New Roman', serif; }
+    .dd-gold { color: #b57a24; }
+    .dd-hero { background: linear-gradient(90deg, #2a1a0d 0%, #5a3a20 58%, #7b5c37 100%); }
+    .dd-paper { background: #fbf5e9; background-image: radial-gradient(#eadcc4 0.7px, transparent .7px); background-size: 12px 12px; }
+    .dd-category { background-position: center; background-size: cover; }
+    .dd-product-image { background: radial-gradient(circle at 50% 40%, #fff8e8 0, #ecd2a0 45%, #bd8541 100%); }
+    .dd-placeholder { background: repeating-linear-gradient(135deg, rgba(255,255,255,.18) 0, rgba(255,255,255,.18) 1px, transparent 1px, transparent 8px), #b99362; }
+}
